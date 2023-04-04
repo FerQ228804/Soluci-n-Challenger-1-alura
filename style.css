@@ -76,7 +76,7 @@ section {
 
 .frente {
 	background: #FFFFFF;
-	background-image: url(/Imgenes/imagencaja.png),url(/Imgenes/mensajecaja.jpg);
+	background-image: url(/Imgenes/imagencaja.svg),url(/Imgenes/mensajecaja.svg);
 	background-repeat: no-repeat;
 	background-position: center 60px, center 400px;
 	
