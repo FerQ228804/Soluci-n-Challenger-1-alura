@@ -9,7 +9,7 @@ const copiar = document.querySelector(".boton-copiar")
 
 function validarTexto(){
     let textoEscrito = document.querySelector(".text-area").value;
-    let validar = textoEscrito.match(/^[a-z]*$/);
+    let validar = textoEscrito.match(/^[a-z\s]*$/i);
 
     if(!validar || validar === 0) {
         Swal.fire({
